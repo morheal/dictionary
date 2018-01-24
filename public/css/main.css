@@ -1,0 +1,15 @@
+.word_search input:first-child {
+   width: 500px;
+}
+
+.word_search {
+  text-align: center;
+}
+
+body {
+  background-color: #97fc9e;
+}
+
+.word {
+  border-bottom: 1px solid #97fc9e;
+}

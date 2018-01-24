@@ -1,5 +1,8 @@
 .word_search input:first-child {
-   width: 500px;
+   width: 80%;
+   display: block;
+   margin: 0 auto;
+   text-align: center;
 }
 
 .word_search {
@@ -12,4 +15,9 @@ body {
 
 .word {
   border-bottom: 1px solid #97fc9e;
+}
+
+.finded_words {
+  border: 1px solid green;
+  margin-top: 15px;
 }

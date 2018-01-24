@@ -12,3 +12,12 @@
 */
 
 Route::get('/', 'HomeController@index');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+//WORD CONTROLLER ROUTES
+Route::post('/add_word', 'WordController@addWord');
+Route::post('/delete_word', 'WordController@deleteWord');
+Route::post('/word_search', 'WordController@wordSearch');
